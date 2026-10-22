@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int a, b, c;
+    cout<<"enter a & b: ";
     cin >> a >> b;
     if (a < b)
     {
@@ -25,6 +26,6 @@ int main()
                 c = i;
             }
         }
-        cout << c;
+        cout <<"GCD of a & b: "<< c;
     }
 }
